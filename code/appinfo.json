@@ -1,0 +1,9 @@
+{
+	"id": "com.jdfsoftware.stopsmoking",
+	"version": "0.1.0",
+	"vendor": "JDF Software",
+	"type": "web",
+	"main": "index.html",
+	"title": "Stop Smoking",
+	"icon": "icon.png"
+}

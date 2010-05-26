@@ -1,0 +1,105 @@
+body.palm-default {
+background:transparent;
+z-index:-1;
+}
+
+.mainScene {
+background:url(../images/bg.png) 0px 0px no-repeat fixed;
+z-index:-1;
+}
+
+.helpScene,
+.prefsScene {
+background:#fff;
+z-index:-1;
+}
+
+div.prefsLabel {
+width:200px;
+float:left;
+clear:left;
+}
+
+div.prefsInput {
+width:120px;
+float:left;
+clear:right;
+}
+
+div.num {
+position:fixed;
+width:30px;
+height:50px;
+z-index:2;
+}
+
+div.time {
+top:25px;
+}
+
+	div#yearA { left:10px; }	
+	div#yearB { left:40px; }
+	div#monthA { left:110px; }
+	div#monthB { left:140px; }
+	div#dayA { left:210px; }
+	div#dayB { left:240px; }
+	
+div.cigs {
+top:125px;
+}
+
+	div#cigsA { left:55px; }
+	div#cigsB { left:85px; }
+	div#cigsC { left:115px; }
+	div#cigsD { left:145px; }
+	div#cigsE { left:175px; }
+	div#cigsF { left:205px; }
+	div#cigsG { left:235px; }
+
+div.saved {
+top:225px;
+}
+
+	div#savedA { left:70px; }
+	div#savedB { left:100px; }
+	div#savedC { left:130px; }
+	div#savedD { left:160px; }
+	div#savedE { left:190px; }
+	div#savedF { left:220px; }
+	div#savedG { left:250px; }
+
+div#helpButton {
+position:fixed;
+top:304px;
+left:10px;
+width:40px;
+height:40px;
+z-index:3;
+}
+
+div#oopsButton {
+position:fixed;
+top:304px;
+left:70px;
+width:180px;
+height:40px;
+}
+
+div#prefsButton {
+position:fixed;
+top:304px;
+left:270px;
+width:40px;
+height:40px;
+}
+
+div.zero  { background: url(../images/nums/0.png) 0px 0px no-repeat fixed; }
+div.one   { background: url(../images/nums/1.png) 0px 0px no-repeat fixed; }
+div.two   { background: url(../images/nums/2.png) 0px 0px no-repeat fixed; }
+div.three { background: url(../images/nums/3.png) 0px 0px no-repeat fixed; }
+div.four  { background: url(../images/nums/4.png) 0px 0px no-repeat fixed; }
+div.five  { background: url(../images/nums/5.png) 0px 0px no-repeat fixed; }
+div.six   { background: url(../images/nums/6.png) 0px 0px no-repeat fixed; }
+div.seven { background: url(../images/nums/7.png) 0px 0px no-repeat fixed; }
+div.eight { background: url(../images/nums/8.png) 0px 0px no-repeat fixed; }
+div.nine  { background: url(../images/nums/9.png) 0px 0px no-repeat fixed; }

@@ -1,0 +1,46 @@
+<div class="palm-hasheader" >
+  <div class="palm-header left">
+    <span x-mojo-loc="">Preferences</span>
+  </div>
+</div>
+
+<div class="palm-header-spacer" style="height:40px"></div>
+
+
+<div id="chooseDate">
+  <div x-mojo-element="DatePicker" id="datePicker"></div>
+</div>
+
+<div class="palm-header-spacer" style="height:15px"></div>
+
+<div id="chooseAmount">
+  <div class="prefsLabel">Packs smoked per day:</div>
+  <div class="prefsInput">
+    <div class="palm-group unlabeled" style="width:60px;">
+      <div class="palm-list">
+        <div class="palm-row first last" x-mojo-tap-hightlight="momentary">
+          <div class="palm-row-wrapper">
+            <div x-mojo-element="ListSelector" id="amountSelector"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="palm-header-spacer" style="height:15px"></div>
+
+<div id="choosePrice">
+  <div class="prefsLabel">Average cost per pack:</div>
+  <div class="prefsInput">
+    <div class="palm-group unlabeled" style="width:60px; height:30px;">
+      <div class="palm-row first last" x-mojo-tap-hightlight="momentary">
+        <div x-mojo-element="TextField" id="costText"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="palm-header-spacer" style="height:15px"></div>
+
+<div id="saveButton" x-mojo-element="Button"></div>
